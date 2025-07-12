@@ -1,0 +1,72 @@
+{
+  "main_metrics": {
+    "accuracy": 0.8281,
+    "precision": 0.8301,
+    "recall": 0.8281,
+    "f1_score": 0.829
+  },
+  "detailed_metrics": {
+    "precision_per_class": [
+      0.7169,
+      0.8815
+    ],
+    "recall_per_class": [
+      0.7438,
+      0.8665
+    ],
+    "f1_per_class": [
+      0.7301,
+      0.8739
+    ],
+    "support_per_class": [
+      160,
+      352
+    ]
+  },
+  "confusion_matrix": [
+    [
+      119,
+      41
+    ],
+    [
+      47,
+      305
+    ]
+  ],
+  "classification_report": {
+    "clickbait": {
+      "precision": 0.7168674698795181,
+      "recall": 0.74375,
+      "f1-score": 0.7300613496932515,
+      "support": 160.0
+    },
+    "non-clickbait": {
+      "precision": 0.8815028901734104,
+      "recall": 0.8664772727272727,
+      "f1-score": 0.8739255014326648,
+      "support": 352.0
+    },
+    "accuracy": 0.828125,
+    "macro avg": {
+      "precision": 0.7991851800264642,
+      "recall": 0.8051136363636364,
+      "f1-score": 0.8019934255629582,
+      "support": 512.0
+    },
+    "weighted avg": {
+      "precision": 0.830054321331569,
+      "recall": 0.828125,
+      "f1-score": 0.8289679540140982,
+      "support": 512.0
+    }
+  },
+  "label_mapping": {
+    "clickbait": 0,
+    "non-clickbait": 1
+  },
+  "model_info": {
+    "model_name": "vinai/phobert-large",
+    "model_path": "checkpoints/phobert-large-v2/latest_checkpoint.pth",
+    "test_samples": 512
+  }
+}

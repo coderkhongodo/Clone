@@ -1,0 +1,12 @@
+Model: vinai/phobert-large
+Test samples: 512
+Accuracy: 0.8125
+
+               precision    recall  f1-score   support
+
+    clickbait       0.67      0.79      0.72       160
+non-clickbait       0.90      0.82      0.86       352
+
+     accuracy                           0.81       512
+    macro avg       0.78      0.81      0.79       512
+ weighted avg       0.82      0.81      0.82       512

@@ -1,0 +1,20 @@
+{
+  "method": "Vistral Simple Zero-Shot",
+  "accuracy": 0.314453125,
+  "macro_f1": 0.25102211775296634,
+  "weighted_f1": 0.16928551781047999,
+  "clickbait_precision": 0.3093812375249501,
+  "clickbait_f1": 0.4689863842662632,
+  "non_clickbait_precision": 0.5454545454545454,
+  "non_clickbait_f1": 0.03305785123966942,
+  "confusion_matrix": [
+    [
+      155,
+      5
+    ],
+    [
+      346,
+      6
+    ]
+  ]
+}

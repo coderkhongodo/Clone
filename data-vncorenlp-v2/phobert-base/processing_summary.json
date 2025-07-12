@@ -1,0 +1,20 @@
+{
+  "model_name": "vinai/phobert-base",
+  "max_length": 256,
+  "label_mapping": {
+    "clickbait": 0,
+    "non-clickbait": 1
+  },
+  "num_classes": 2,
+  "splits_processed": [
+    "train",
+    "val",
+    "test"
+  ],
+  "total_samples": 3414,
+  "split_sizes": {
+    "train": 2389,
+    "val": 513,
+    "test": 512
+  }
+}

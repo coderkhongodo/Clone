@@ -15,6 +15,7 @@ Dự án phát hiện clickbait sử dụng 3 model chính trên dataset `simple
 │   └── vistral/               # Vistral models
 ├── 📝 scripts/                 # Scripts theo từng model
 │   ├── phobert/               # PhoBERT scripts
+│   ├── lstm/                  # LSTM scripts
 │   ├── tfidf_svm/             # TF-IDF SVM scripts
 │   ├── vistral/               # Vistral scripts
 │   ├── data_prep/             # Data preparation scripts

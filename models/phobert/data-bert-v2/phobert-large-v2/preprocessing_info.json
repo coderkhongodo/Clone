@@ -1,0 +1,22 @@
+{
+  "model_name": "vinai/phobert-large",
+  "max_length": 256,
+  "tokenizer_vocab_size": 64000,
+  "label_mapping": {
+    "clickbait": 0,
+    "non-clickbait": 1
+  },
+  "num_classes": 2,
+  "preprocessing_info": {
+    "word_segmentation": "VnCoreNLP",
+    "special_tokens": {
+      "bos_token": "<s>",
+      "eos_token": "</s>",
+      "unk_token": "<unk>",
+      "sep_token": "</s>",
+      "pad_token": "<pad>",
+      "cls_token": "<s>",
+      "mask_token": "<mask>"
+    }
+  }
+}

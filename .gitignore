@@ -1,0 +1,43 @@
+# Model weights and checkpoints
+models/
+checkpoints-vncorenlp/
+models_lstm_enhanced/
+multilingual_bert_results/
+xlm_roberta_results/
+
+# Virtual environment
+venv/
+
+# Model files
+*.pth
+*.safetensors
+*.pt
+*.bin
+
+# Large data files
+*.pkl
+*.pickle
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp 

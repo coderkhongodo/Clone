@@ -1,0 +1,11 @@
+{
+  "split": "val",
+  "num_samples": 513,
+  "max_length": 256,
+  "model_name": "vinai/phobert-large",
+  "avg_length": 14.762183235867447,
+  "label_distribution": {
+    "clickbait": 160,
+    "non-clickbait": 353
+  }
+}

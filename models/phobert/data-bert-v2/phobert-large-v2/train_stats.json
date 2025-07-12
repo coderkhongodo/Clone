@@ -1,0 +1,11 @@
+{
+  "split": "train",
+  "num_samples": 2389,
+  "max_length": 256,
+  "model_name": "vinai/phobert-large",
+  "avg_length": 15.013394725826705,
+  "label_distribution": {
+    "clickbait": 745,
+    "non-clickbait": 1644
+  }
+}
